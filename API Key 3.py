@@ -3,10 +3,10 @@ import urllib.request
 import json
 import webbrowser
 import googlemaps
-api_key = 'AIzaSyC7gEiJi2eQKs64JWnRCl0c64cBMLfrw2g' 
+api_key = 'AIzaSyC7gEiJi2eQKs64JWnRCl0c64cBMLfrw2g(old)' 
 request = input("What's Your Location?: ")
 request = request.replace(' ','+')
-gmaps = googlemaps.Client(key='AIzaSyC7gEiJi2eQKs64JWnRCl0c64cBMLfrw2g')
+gmaps = googlemaps.Client(key='AIzaSyC7gEiJi2eQKs64JWnRCl0c64cBMLfrw2g(old)')
 geocode_result = gmaps.geocode(request)
 strgeocode_result = str(geocode_result)
 sensor = False
